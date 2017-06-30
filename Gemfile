@@ -13,6 +13,10 @@ gem 'pg', group: :production
 
 #12 factor for heroku
 gem 'rails_12factor', group: :production
+
+#add bootstrap
+gem 'bootstrap-sass'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
