@@ -17,8 +17,13 @@ gem 'rails_12factor', group: :production
 #stripe for taking payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
+#to securely config app
+gem 'figaro'
+
 #add bootstrap
 gem 'bootstrap-sass'
+
+gem 'letter_opener', group: :development
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

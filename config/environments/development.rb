@@ -11,6 +11,10 @@ Rails.application.configure do
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
+  
+  #for development mode use letter opener to open emails in browser
+  config.action_mailer.delivery_method = :letter_opener
+
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send.
