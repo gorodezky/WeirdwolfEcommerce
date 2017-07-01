@@ -12,3 +12,9 @@ theBear = Product.create(title: "Bear (on white)",
 	price: "20.00", sku: "bear1", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/bribear.jpg",
 	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Bear down</p>}
 	)
+
+theWolf = Product.create(title: "Wolf (on white)",
+	subtitle: "Weirdwolf Product", image_name: "ww.jpg",
+	price: "20.00", sku: "wolf1", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg",
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>BThe Original</p>}
+	)
