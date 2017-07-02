@@ -1,4 +1,4 @@
-class PurchaseMailer < ActionMailer::Base
+ class PurchaseMailer < ActionMailer::Base
 	layout 'purchase_mailer'
 	default from: "Learn rails <learnappcode@gmail.com>"
 

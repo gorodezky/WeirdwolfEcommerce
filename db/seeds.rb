@@ -7,14 +7,18 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-theBear = Product.create(title: "Bear (on white)",
-	subtitle: "Weirdwolf Product", image_name: "bribear.jpg",
-	price: "20.00", sku: "bear1", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/bribear.jpg",
-	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Bear down</p>}
-	)
+niceCat = Product.create(title: "Quality Kitty", 
+ subtitle: "Learn App Code", image_name: "kitty.JPG",
+ price: "4.99", sku: "kittyOne", info: "cute cat", download_url: "https://s3-us-west-2.amazonaws.com/rails-learnapp-bucket/kitty.JPG", 
+ details: "A really nice cat", description: %{<p>It's a cat</p>
+ })
 
-theWolf = Product.create(title: "Wolf (on white)",
-	subtitle: "Weirdwolf Product", image_name: "ww.jpg",
-	price: "20.00", sku: "wolf1", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg",
-	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>BThe Original</p>}
-	)
+theBear = Product.create(title: "Bear", 
+	subtitle: "Weirdwolf Product", image_name: "bribear.jpg", 
+	price: "20.00", sku: "bearOne", info: "cute cat", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/bribear.jpg", 
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Bear down</p>})
+
+theWolf = Product.create(title: "Wolf", 
+	subtitle: "Weirdwolf Product", image_name: "ww.jpg", 
+	price: "20.00", sku: "wolfOne ", info: "cute cat", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>BThe Original</p>})
