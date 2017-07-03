@@ -17,6 +17,13 @@ Running the server locally you can find the project on http://localhost:3000
 == Built With
 
 Rails - Web Framework
+
 Stripe - Payments
+
 ActiveAdmin - Administration Framework
+
 Figaro - for ENV Security
+
+== Credits To
+
+https://www.youtube.com/watch?v=K-l2XhRyVEo
