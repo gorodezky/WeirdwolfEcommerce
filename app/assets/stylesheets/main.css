@@ -1,3 +1,67 @@
+h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto Black', 'Roboto', sans-serif;
+            
+        }
+        p, div {
+            font-family: 'Roboto Black', 'Roboto', sans-serif;
+            font-weight:bold;
+        }
+        body { background: #009999 !important; }
+        .extra-jumbotron{
+            color: #fff;
+            background-image: url("eddy.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 75vh;
+        }
+        .navbar {
+           margin-bottom: 0px;
+        }
+        .navbar-custom {
+            background-color:#2d7770;
+            color:#ffffff;
+            border-radius:0;
+        }
+
+        .navbar-custom .navbar-nav > li > a {
+            color:#000;
+        }
+
+        .navbar-custom .navbar-nav > .active > a {
+            color: #ffffff;
+            background-color:transparent;
+        }
+
+        .navbar-custom .navbar-nav > li > a:hover,
+        .navbar-custom .navbar-nav > li > a:focus,
+        .navbar-custom .navbar-nav > .active > a:hover,
+        .navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+        text-decoration: none;
+        background-color: #009999;
+}
+.navbar-custom .navbar-brand {
+    color:#000;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#ff0000;
+}
+
+/* for dropdowns only */
+.navbar-custom .navbar-nav .dropdown-menu  { 
+    background-color: #2d7770;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+    color: #000;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+    color: #009999;
+}
+
+
 /*REUSABLE STYLES */
 
 img {
