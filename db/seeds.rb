@@ -7,9 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-niceCat = Product.create(title: "Quality Kitty", 
+niceCat = Product.create(title: "Quality Test", 
  subtitle: "Learn App Code", image_name: "kitty.JPG",
- price: "4.99", sku: "kittyOne", info: "cute cat", download_url: "https://s3-us-west-2.amazonaws.com/rails-learnapp-bucket/kitty.JPG", 
+ price: "00.01", sku: "kittyOne", info: "cute cat", download_url: "https://s3-us-west-2.amazonaws.com/rails-learnapp-bucket/kitty.JPG", 
  details: "A really nice cat", description: %{<p>It's a cat</p>
  })
 
