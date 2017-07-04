@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
             font-family: 'Roboto Black', 'Roboto', sans-serif;
             font-weight:bold;
         }
+
 /*BACKGROUND COLOR*/
         body { background: #009999 !important; }
 /*JUMBOTRON*/
@@ -17,8 +18,15 @@ h1, h2, h3, h4, h5, h6 {
             background-repeat: no-repeat;
             min-height: 75vh;
             height: 67vw;
-            justify-content: center;
-            align-items: center;
+}
+/* FOOTER */
+.footer-text > a{
+    color: black;
+    text-decoration: none;
+}
+.footer-text > h4 > a{
+    color: black;
+    text-decoration: none;
 }
 /*NAVBAR*/
         .navbar {
@@ -28,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
             background-color:#2d7770;
             color:#ffffff;
             border-radius:0;
+            height: 7vh;
         }
 
         .navbar-custom .navbar-nav > li > a {
