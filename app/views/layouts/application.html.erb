@@ -24,9 +24,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <!-- <a class="navbar-brand" href="#">
                 <%= image_tag('ww3.png', id:"brand-nav-img", alt: "WeirdWolf Designs") %>
-            </a>
+            </a> -->
             <a class="navbar-brand" href="#">WEIRDWOLF</a>
         </div>
 
@@ -50,8 +50,8 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-
-<div id="content" class="container">
+<%= yield %>
+<!-- <div id="content" class="container">
     <header id="content-header">
         <div id="price-container">
         	<span class="glyphicon glyphicon-tag"></span><span class="price">$19.99</span>
@@ -59,7 +59,7 @@
     	<%= image_tag('header-image.jpg', id:"content-head-img", alt: "Learn Rails!") %>
 	</header>
 	<%= yield %>
-</div>
+</div> -->
 
 <footer id="site-footer">
 Made by <a href="http://dangorodezky.com" target="_blank"> Dan Gorodezky </a>
