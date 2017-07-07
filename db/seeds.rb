@@ -7,18 +7,23 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-niceCat = Product.create(title: "Quality Test", 
- subtitle: "Learn App Code", image_name: "test.jpg",
- price: "00.01", sku: "kittyOne", info: "cute cat", download_url: "https://s3-us-west-2.amazonaws.com/rails-learnapp-bucket/kitty.JPG", 
- details: "A really nice cat", description: %{<p>It's a cat</p>
+theSkull = Product.create(title: "Skull", 
+ subtitle: "Weirdwolf Product", image_name: "skull.jpg",
+ price: "18.00", sku: "skullOne", info: "Freshly Printed", download_url: "https://s3-us-west-2.amazonaws.com/rails-learnapp-bucket/kitty.JPG", 
+ details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>A modern pop</p>
  })
 
 theBear = Product.create(title: "Bear", 
-	subtitle: "Weirdwolf Product", image_name: "bribear.jpg", 
-	price: "20.00", sku: "bearOne", info: "cute cat", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/bribear.jpg", 
+	subtitle: "Weirdwolf Product", image_name: "bear.jpg", 
+	price: "18.00", sku: "bearOne", info: "Freshly Printed", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/bribear.jpg", 
 	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Bear down</p>})
 
 theWolf = Product.create(title: "Wolf", 
-	subtitle: "Weirdwolf Product", image_name: "ww.jpg", 
-	price: "20.00", sku: "wolfOne ", info: "cute cat", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
-	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>BThe Original</p>})
+	subtitle: "Weirdwolf Product", image_name: "blackwolf.jpg", 
+	price: "18.00", sku: "wolfOne", info: "Freshly Printed", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>The Original</p>})
+
+theMelon = Product.create(title: "Watermelon", 
+	subtitle: "Weirdwolf Product", image_name: "watermelon.jpg", 
+	price: "18.00", sku: "watermelonOne", info: "Freshly Printed", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Picked daily</p>})

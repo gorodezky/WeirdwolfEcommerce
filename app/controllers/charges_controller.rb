@@ -12,7 +12,7 @@
 	charge = Stripe::Charge.create(
 		:customer    => customer.id,
 	    :amount      => product.price_in_cents,
-	    :description => 'Rails Stripe customer',
+	    :description => 'Weirdwolf Stripe Purchase',
 	    :currency    => 'usd'
 	)
 
