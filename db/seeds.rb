@@ -27,3 +27,8 @@ theMelon = Product.create(title: "Watermelon",
 	subtitle: "Weirdwolf Product", image_name: "watermelon.jpg", 
 	price: "18.00", sku: "watermelonOne", info: "Freshly Printed", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
 	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>Picked daily</p>})
+
+theZebra = Product.create(title: "Zebra", 
+	subtitle: "Weirdwolf Product", image_name: "zebra.jpg", 
+	price: "18.00", sku: "zebraOne", info: "Freshly Printed", download_url: "https://s3-us-west-1.amazonaws.com/rails-weirdecommerce-bucket/ww.jpg", 
+	details: "Digitaly Printed onto a Bella Canvas Tee", description: %{<p>More colors than a rainbow</p>})
