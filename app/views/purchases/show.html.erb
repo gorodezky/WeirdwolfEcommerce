@@ -1,16 +1,15 @@
 <div id="content" class="container">
     <header id="content-header">
         <div id="price-container">
-          <span class="glyphicon glyphicon-tag"></span><span class="price">$19.99</span>
         </div>
-      <%= image_tag('header-image.jpg', id:"content-head-img", alt: "Learn Rails!") %>
+      <%= image_tag('header-wolf.jpg', id:"content-head-img", alt: "Weirdwolf!") %>
   </header>
   <section id="content-receipt" class="clearfix">
       <div id="receipt-container">
         <div class="dotmatrix left"></div>
         <div id="receipt-content">
           <h4 id="receipt-title">Thank You!</h4>
-          <p><strong>RECEIPT</strong></p>
+          <p><strong>WEIRDWOLF ONLINE PURCHASE RECEIPT</strong></p>
           <div id="receipt-details" class="row clearfix">
             <div class="col-sm-8 receipt-left">
               <p><strong class="font-weight-heavy"><%= @product.title %></strong><br/> <span class="font-weight-light"><%= @product.subtitle %></span></p>
@@ -21,7 +20,7 @@
           </div>
 
           <footer id="receipt-footer">
-            <small>Your purchase is complete. We hope you enjoy it!</small>
+            <small>Email us your size at weirdwolfdesigns@gmail.com</small>
           </footer>
         </div>
         <div class="dotmatrix right"></div>
